@@ -1,4 +1,4 @@
-# Documentation for the "Coffee Shop" assignment
+# Documentation for the assignment 2 BACKEND DEV
 
 ## Project Description
 The project is a console application for managing orders in a coffee shop. It implements two types of orders: coffee orders and snack orders. The system allows you to enter orders via the console, after which a dynamic receipt with the total amount is generated.
@@ -51,7 +51,7 @@ Stores a list of ordered items and their cost. After the order is completed, it 
 ###6. The 'OrderProcessor` class
 Contains the `doOrder` method that processes user input. Allows you to place orders and withdraw a receipt.
 
-### 7. Spring Configuration (`CoffeeShopConfig')
+### 7. Spring Configuration (`ProjectConfig')
 - Uses `@Configuration` and `@ComponentScan` to configure the context.
 
 ###8. Main class `CoffeeShopApplication`
@@ -144,7 +144,7 @@ Total: 850tg
 ### 6. Класс `OrderProcessor`
 Содержит метод `doOrder`, который обрабатывает ввод пользователя. Позволяет оформить заказы и вывести чек.
 
-### 7. Конфигурация Spring (`CoffeeShopConfig`)
+### 7. Конфигурация Spring (`ProjectConfig`)
 - Использует `@Configuration` и `@ComponentScan` для настройки контекста.
 
 ### 8. Главный класс `CoffeeShopApplication`
